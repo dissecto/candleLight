@@ -1,13 +1,18 @@
-# For PCBs designed using KiCAD: http://www.kicad-pcb.org/
+### Altium ###
+# Previews Folders
+**/__Previews/
 
-# Temporary files
-*.000
-*.bak
-*.bck
-*.kicad_pcb-bak
+# History Folders
+**/History/*
 
-# Netlist files (exported from Eeschema)
-*.net
+# Project Logs
+Project Logs*/
 
-# Autorouter files (exported from Pcbnew)
-.dsn
+# Project Outputs
+Project Outputs*/
+
+# Auto-conversion notices
+*.PcbDoc.htm
+
+# Access lock file for dbLib sources
+**/*.ldb
